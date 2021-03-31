@@ -1,0 +1,88 @@
+@import url("colors_fonts.css");
+@import url("datatable.css");
+
+/* Formulario de añadir reserva */
+
+.form-reserva {
+	font-family: var(--montserrat);
+	font-size: 16px;
+}
+
+.form-reserva > form{
+    width: 290px;
+}
+
+.form-reserva > form > .form-title {
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+.form-reserva > form > input {
+	width: 250px;
+	height: 2em;
+	border: 1px solid var(--highlight-color);
+	border-radius: 5px;
+}
+
+.form-reserva > form > input[type="button"] {
+	margin-top: 1em;
+	font-weight: bold;
+	background: var(--highlight-color);
+}
+
+.modal-contenido {
+	background-color: var(--primary-color);
+    border-radius: var(--dt-border-radius);
+	width: 300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	box-shadow: -8px 9px 48px 9px rgba(0,0,0,0.69);
+}
+
+.pop-up{
+    background: rgba(48, 48, 48, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.pop-up-wrap{
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 950px;
+    transform: scale(0.6);
+    opacity: 0;
+    transition: .3s ease all;
+	background-color: var(--primary-color);
+    border-radius: var(--dt-border-radius);
+	width: 300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	box-shadow: -8px 9px 48px 9px rgba(0,0,0,0.69);
+}
+
+.closePopup{
+    color: var(--red-dark);
+	font-size: 1.5em;
+    padding: 1px 4px;
+}
+
+
+.pop-up.show{
+    visibility: visible;
+}
+
+.pop-up-wrap.show{
+    transform: scale(1);
+    opacity: 1;
+}
