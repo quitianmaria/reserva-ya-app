@@ -79,7 +79,7 @@ if ($sesion == null || $sesion = '') {
 			<div class="sidebar__menu">
 				<div class="sidebar__link active_menu_link">
 					<i class="fa fa-home"></i>
-					<a href="./dashboard.php">Inicio</a>
+					<a href="./dashboard.php">Inicia</a>
 				</div>
 				<div class="sidebar__link">
 					<i class="fa fa-id-card" aria-hidden="true"></i>
