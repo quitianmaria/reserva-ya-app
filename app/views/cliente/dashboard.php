@@ -83,7 +83,7 @@ if ($sesion == null || $sesion = '') {
 				</div>
 				<div class="sidebar__link">
 					<i class="fa fa-id-card" aria-hidden="true"></i>
-					<a href="./usuarios/updateInfo.php">Actualizar información</a>
+					<a href="./usuarios/updateInfo.php">Actualizar informaciones</a>
 				</div>
 				<div class="sidebar__link">
 					<i class="fas fa-book"></i>
